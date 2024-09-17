@@ -2,10 +2,17 @@
 //
 
 #include <iostream>
+#include "CppConsoleApp.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << "Hello " << GetName();
+}
+
+std::string GetName()
+{
+    std::string aname = "CppName";
+    return aname;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
