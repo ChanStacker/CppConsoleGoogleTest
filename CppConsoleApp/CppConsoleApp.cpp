@@ -4,10 +4,13 @@
 #include <iostream>
 #include "CppConsoleApp.h"
 
+#ifdef _TEST_BUILD
+#else
 int main()
 {
     std::cout << "Hello " << GetName();
 }
+#endif
 
 std::string GetName()
 {

@@ -18,9 +18,15 @@
     <ClCompile Include="CppConsoleApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CppStringCalc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CppConsoleApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CppStringCalc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

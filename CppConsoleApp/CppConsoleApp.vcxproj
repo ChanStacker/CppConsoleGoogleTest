@@ -128,9 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CppConsoleApp.cpp" />
+    <ClCompile Include="CppStringCalc.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CppConsoleApp.h" />
+    <ClInclude Include="CppStringCalc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
