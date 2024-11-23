@@ -27,6 +27,24 @@ namespace googleteststaticlib {
 		int resultCount = GetStaticLibOutput(testString);
 		EXPECT_EQ(strCount, resultCount);
 	}
+
+	TEST(SUTRefTest, SwapByPointerTest) 
+	{
+		int x = 4;
+		int y = 5;
+		SwapByPointer(&x, &y);
+		EXPECT_EQ(x, 5);
+		EXPECT_EQ(y, 4);
+	}
+
+	TEST(SUTRefTest, SwapByRefTest) 
+	{
+		int x = 4;
+		int y = 5;
+		SwapByRef(x, y);
+		EXPECT_EQ(x, 5);
+		EXPECT_EQ(y, 4);
+	}
 }
 
 namespace googletestconsoleapp {
